@@ -35,7 +35,7 @@ device = torch.device("cpu")
 
 encoder = VGGEncoder('vgg_normalised.pth').to(device)
 decoder = Decoder().to(device)
-decoder.load_state_dict(torch.load('decoder_final.pth'))
+decoder.load_state_dict(torch.load('decoder_final.pth' ,map_location=device))
 
 encoder.eval()
 decoder.eval()
