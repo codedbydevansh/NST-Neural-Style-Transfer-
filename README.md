@@ -261,10 +261,3 @@ Please follow the existing code style and include tests for new behavior where a
 
 ---
 
-## 📄 License
-
-<!-- TODO: Add License file/information (e.g. MIT, Apache 2.0) -->
-This project's licensing terms have not been specified yet. Please check the repository files or contact the maintainer for more details.
-
----
-*This README was generated with ❤️ by [ReadmeBuddy](https://readmebuddy.com)*
